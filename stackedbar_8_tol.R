@@ -1,3 +1,4 @@
+#adapted from https://userweb.eng.gla.ac.uk/umer.ijaz/bioinformatics/ecological.html
 library(ggplot2)
 library(tidyverse)
 abund_table<-read.csv("NPCpathway_peakarea.csv",  header = TRUE, row.names = 1)
