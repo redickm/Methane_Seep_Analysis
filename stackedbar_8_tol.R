@@ -18,7 +18,7 @@ x<-abund_table/rowSums(abund_table)
 Pathway_list<-colnames(x)[1:N+1]
 #x<-x[,order(colSums(x),decreasing=TRUE)]
 
-#Extract list of top N Taxa
+#Extract list of top N Taxa (this is set to 8 because there are 7 pathways + the unassigned features so this is not actually removing any pathways here) 
 N<-8
 taxa_list<-colnames(x)[1:N]
 #remove "__Unknown__" and add it to others
