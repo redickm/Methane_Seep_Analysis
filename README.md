@@ -11,7 +11,7 @@ Margaret A. Redick1, Milo E. Cummings2, George F. Neuhaus1, Lila M. Ardor Belluc
 
 **For pie charts and sunburst plots**:
 
-4. Plotly was used to generate sunburst plots of canopus data by core using Create_Sunburst_Plots.ipynb. This input file used is the combined CANOPUS and quant table with the addition of columns containing summed peak areas by feature for each core and the NPClassifier pathways “Fatty Acids” and “Terpenoids” were renamed as “Lipids and Lipid-like” (canopus_peakarea_combined_sumbycore_combinelipidnpcpath.txt). “maxdepth” is set to 1, so the resulting .pdf outputs appear as pie charts. The sunburst plots can sill be produced if maxdepth is set higher and can also be exported as interactive .html files.
+4. Plotly was used to generate pie charts (Figure 2) and sunburst plots of canopus data by core using Create_Sunburst_Plots.ipynb. This input file used is the combined CANOPUS and quant table with the addition of columns containing summed peak areas by feature for each core and the NPClassifier pathways “Fatty Acids” and “Terpenoids” were renamed as “Lipids and Lipid-like” (canopus_peakarea_combined_sumbycore_combinelipidnpcpath.txt). “maxdepth” is set to 1, so the resulting .pdf outputs appear as pie charts. The sunburst plots can be produced if maxdepth is set higher and can also be exported as interactive .html files.
    
 **For stacked bar chart**:
 
