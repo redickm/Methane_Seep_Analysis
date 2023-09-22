@@ -3,4 +3,4 @@
 #Argument 2 is the path for a tab delimited input file with CANOPUS output and peak areas of MS features.
 #Argument 3 is the file name for the output file.
 #Argument 4 is the search term that will be used for filtering.
-./filter_specificid.py canopus_peakarea_combined.txt canopus_peakarea_peptide_filter.txt peptid
+./filter_specificid.py canopus_quant_combined.txt canopus_peakarea_peptide_filter.txt peptid
